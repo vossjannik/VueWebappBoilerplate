@@ -1,0 +1,9 @@
+node_modules
+www
+
+.directory
+.vscode
+
+work.bat
+server-compiled.js
+npm-debug.log

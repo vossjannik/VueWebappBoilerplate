@@ -1,0 +1,36 @@
+{
+  "parser": "babel-eslint",
+  "extends": [
+    "standard"
+  ],
+  "plugins": [
+    "babel",
+    "promise",
+    "html",
+  ],
+  "settings": {
+    "html/html-extensions": [".html", ".vue"],
+    "html/indent": "0"
+  },
+  "env": {
+  },
+  "globals": {
+  },
+  "rules": {
+    "handle-callback-err": 0,
+    "no-multi-str": 0,
+    "semi": [2, "never"],
+    "max-len": [2, 90, 2],
+    "indent": ["error", 2],
+    "generator-star-spacing": 0,
+    "no-unused-expressions": 0,
+    "object-curly-spacing": ["error", "always"],
+    "comma-dangle": ["error", {
+      "arrays": "always-multiline",
+      "objects": "always-multiline",
+      "imports": "always-multiline",
+      "exports": "always-multiline",
+      "functions": "never"
+    }]
+  }
+}

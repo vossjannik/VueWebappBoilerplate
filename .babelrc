@@ -1,0 +1,21 @@
+{
+  "presets": [
+    ["env", {
+      "targets": {
+        "uglify": true,
+        "browsers": "> 5%"
+      },
+      "loose": true,
+      "useBuiltIns": true
+    }]
+  ],
+  "ignore": [
+    "node_modules"
+  ],
+  plugins: [
+    "transform-es2015-modules-commonjs",
+    "transform-runtime",
+    "transform-object-rest-spread"
+  ]
+}
+
